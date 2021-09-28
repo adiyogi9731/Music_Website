@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <title>Music Website</title>
+
+  <!-- <script type="text/javascript">
+
+        function show(ele)
+        {
+            var el=document.getElementById(ele);
+            if (el!=null){
+                if(el.style.display=="block"){
+                    el.style.display="none";
+                }
+                else{
+                    el.style.display="block";
+                }
+                return false;
+            }
+        }
+
+        
+        function show1(ele)
+        {
+            var el=document.getElementById(ele);
+            if (el!=null){
+                if(el.style.display=='none'){
+                    el.style.display="block";
+                }
+                return false;
+            }
+        }
+        function show2(ele){
+            var el=document.getElementById(ele);
+            if (el!=null){
+                if(el.style.display=="block"){
+                    el.style.display="none";
+                }
+               
+                return false;
+            }
+        }
+        function getname(){
+            var el=document.getElementById('name').innerHTML;
+            return el;
+
+        }
+        function getname1(){
+            var el=document.getElementById('name1').innerHTML;
+            return el;
+
+        }
+
+        function getname2(){
+            var el=document.getElementById('name2').innerHTML;
+            return el;
+
+        }
+        function getname3(){
+            var el=document.getElementById('name4').innerHTML;
+            return el;
+
+        }
+        function getname4(){
+            var el=document.getElementById('name5').innerHTML;
+            return el;
+
+        }
+
+        function getname5(){
+            var el=document.getElementById('name6').innerHTML;
+            return el;
+
+        }
+        function getname6(){
+            var el=document.getElementById('name7').innerHTML;
+            return el;
+
+        }
+        function getname7(){
+            var el=document.getElementById('name8').innerHTML;
+            return el;
+
+        }
+
+        function getname8(){
+            var el=document.getElementById('name9').innerHTML;
+            return el;
+
+        }
+        
+        function vanish(ele)
+        {
+            var el=document.getElementById(ele);
+            if(el!=null)
+            {
+                if(el.style.display=='block')
+                {
+                    el.style.display='none';
+                }
+                return True;
+            }
+        }
+        function button1(btn){
+            document.getElementById(btn).disabled=true;
+
+        }
+        function enable1(ele){
+            document.getElementById(ele).disabled=false;
+
+        }
+      
+        
+    </script> -->
+</head>
+<body>
+    <!-- main body -->
+    <div>
+        <!--header-->
+        <div class="heading">
+            <h1><b style="font-size: 45px;">Gana</b></h1>
+        </div>
+
+        <!--page title-->
+        <div class="title">
+            <p style="font-size: 30px;"><b><i>CONTENTS</i></b></p>
+        </div>
+
+
+        <!-- body  article content -->
+        <div class="article">
+            <!--aside left-->
+            <div class="aside_left">
+                <p><h3 style="padding: 10px;"><b><i style="font-size: 22px;">List of songs</i></b></h3></p>
+                <div class="song_body">
+                    <div id="column1">
+                        <button type="button" class="btn" onclick="show('column11')">
+                            <img src='https://lyricsclub.net/wp-content/uploads/2021/08/param-sundari-song.jpg'>
+                            <p><b id="name2">Param Sundari</b></p>
+                        </button>
+                    </div>
+
+                                <div id="column11" style="display: none;background-color:#4dff4d;width:20%;text-align:center;padding:7px;">
+
+                                    <div style="background-color:#33cc33;width:50%;text-align:center;padding:2px;margin:50% auto ">
+                                        <button type="button" id="btn1" style="padding:10px;" onclick="document.getElementById('project2').innerHTML=getname2();button1('btn1');document.getElementById('icon2').innerHTML='  X';show1('one1');show1('one')">Add </button>
+                                        <br>
+                                        <a href="play.html"><button type="button" class="btn" style="padding: 10px; ">Play</button></a>
+                                        
+                                    </div>
+                        
+                                </div>
+
+
+                    <div id="column2">
+                        <button type="button" class="btn" onclick="show('column22')">
+                            <img src='https://www.filmymama.com/wp-content/uploads/2019/03/teri-mitti-video-song-from-kesar.jpg'>
+                            <p><b id="name1">Teri Mitti</b></p>
+                        </button>
+                    </div>
+
+                                    <div id="column22" style="display: none;background-color:#4dff4d;width:20%;text-align:center;padding:7px;">
+                                            <div style="background-color:#33cc33;width:50%;text-align:center;padding:2px;margin:50% auto ">
+                                                <button type="button" id="btn2" style="padding:10px;" onclick="document.getElementById('project1').innerHTML=getname1();button1('btn2');document.getElementById('icon1').innerHTML='  X';show1('two2');show1('two')">Add </button>
+                                                <br>
+                                                <a href="play.html"><button type="button" class="btn" style="padding: 10px; ">Play</button></a>
+                                                    
+                                            </div>
+                                    
+                                    </div>
+
+
+                    <div id="column3">
+                        <button type="button" class="btn" onclick="show('column33')">
+                            <img src='https://i.ytimg.com/vi/WSbsc6giMeU/maxresdefault.jpg'>
+                            <p><b id='name'>Faded</b></p>
+                        </button>
+
+                    </div>
+
+                                    <div id="column33" style="display: none;background-color:#4dff4d;width:20%;text-align:center;padding:7px;">
+                                        <div style="background-color:#33cc33;width:50%;text-align:center;padding:2px;margin:50% auto ">
+                                            <button type="button" id="btn3" style="padding:10px;" onclick="document.getElementById('project').innerHTML=getname();button1('btn3'); document.getElementById('icon').innerHTML='  X'; show1('three3');show1('three')">Add </button>
+                                            <br>
+                                            <a href="play.html"> <button type="button" class="btn" style="padding: 10px; ">Play</button></a>
+                                                
+                                        </div>
+                                
+                                    </div>
+
+                                    
+                </div>
+
+
+
+                <!--one more song body-->
+
+
+                <div class="song_body1">
+                    <div id="column_one">
+                        <button type="button" class="btn" onclick="show('column_one1')">
+                            <img src='https://i.ytimg.com/vi/FXovf5dsRTw/maxresdefault.jpg'>
+                            <p><b id="name4">Despacito</b></p>
+                        </button>
+                    </div>
+
+                                <div id="column_one1" style="display: none;background-color:#4dff4d;width:20%;text-align:center;padding:7px;">
+
+                                    <div style="background-color:#33cc33;width:50%;text-align:center;padding:2px;margin:50% auto ">
+                                        <button type="button" id="btn4" style="padding:10px;" onclick="document.getElementById('project4').innerHTML=getname3();button1('btn4');document.getElementById('icon4').innerHTML='  X';show1('four4');show1('four')">Add </button>
+                                        <br>
+                                        <a href="play.html"><button type="button" class="btn" style="padding: 10px; ">Play</button></a>
+                                        
+                                    </div>
+                        
+                                </div>
+
+
+                    <div id="column_two">
+                        <button type="button" class="btn" onclick="show('column_two2')">
+                            <img src='https://www.hindiraag.com/wp-content/uploads/2020/09/Agar-Tum-Saath-Ho.jpg'>
+                            <p><b id="name5"> Agar tum sath ho</b></p>
+                        </button>
+                    </div>
+
+                                    <div id="column_two2" style="display: none;background-color:#4dff4d;width:20%;text-align:center;padding:7px;">
+                                            <div style="background-color:#33cc33;width:50%;text-align:center;padding:2px;margin:50% auto ">
+                                                <button type="button" id="btn5" style="padding:10px;" onclick="document.getElementById('project5').innerHTML=getname4();button1('btn5');document.getElementById('icon5').innerHTML='  X';show1('five5');show1('five')">Add </button>
+                                                <br>
+                                                <a href="play.html"><button type="button" class="btn" style="padding: 10px; ">Play</button></a>
+                                                    
+                                            </div>
+                                    
+                                    </div>
+
+
+                    <div id="column_three">
+                        <button type="button" class="btn" onclick="show('column_three3')">
+                            <img src='https://wallpapercave.com/wp/wp4249252.jpg'>
+                            <p><b id='name6'>Kill This Love</b></p>
+                        </button>
+
+                    </div>
+
+                                    <div id="column_three3" style="display: none;background-color:#4dff4d;width:20%;text-align:center;padding:7px;">
+                                        <div style="background-color:#33cc33;width:50%;text-align:center;padding:2px;margin:50% auto ">
+                                            <button type="button" id="btn6" style="padding:10px;" onclick="document.getElementById('project6').innerHTML=getname5();button1('btn6'); document.getElementById('icon6').innerHTML='  X'; show1('six6');show1('six')">Add </button>
+                                            <br>
+                                            <a href="play.html"> <button type="button" class="btn" style="padding: 10px; ">Play</button></a>
+                                                
+                                        </div>
+                                
+                                    </div>
+
+                                    
+                </div>
+
+                <!--one more song body-->
+                <div class="song_body2">
+                    <div id="column_one_one">
+                        <button type="button" class="btn" onclick="show('column_one_one1')">
+                            <img src='https://i.ytimg.com/vi/us3tczsrKQc/maxresdefault.jpg'>
+                            <p><b id="name7" >Danza Kuduro</b></p>
+                        </button>
+                    </div>
+
+                                <div id="column_one_one1" style="display: none;background-color:#4dff4d;width:20%;text-align:center;padding:7px;">
+
+                                    <div style="background-color:#33cc33;width:50%;text-align:center;padding:2px;margin:50% auto ">
+                                        <button type="button" id="btn7" style="padding:10px;" onclick="document.getElementById('project7').innerHTML=getname6();button1('btn7');document.getElementById('icon7').innerHTML='  X';show1('seven7');show1('seven')">Add </button>
+                                        <br>
+                                        <a href="play.html"><button type="button" class="btn" style="padding: 10px; ">Play</button></a>
+                                        
+                                    </div>
+                        
+                                </div>
+
+
+                    <div id="column_two_two">
+                        <button type="button" class="btn" onclick="show('column_two_two2')">
+                            <img src='https://townsquare.media/site/252/files/2019/03/ava-max.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89'>
+                            <p><b id="name8">So Am I</b></p>
+                        </button>
+                    </div>
+
+                                    <div id="column_two_two2" style="display: none;background-color:#4dff4d;width:20%;text-align:center;padding:7px;">
+                                            <div style="background-color:#33cc33;width:50%;text-align:center;padding:2px;margin:50% auto ">
+                                                <button type="button" id="btn8" style="padding:10px;" onclick="document.getElementById('project8').innerHTML=getname7();button1('btn8');document.getElementById('icon8').innerHTML='  X';show1('eight8');show1('eight')">Add </button>
+                                                <br>
+                                                <a href="play.html"><button type="button" class="btn" style="padding: 10px; ">Play</button></a>
+                                                    
+                                            </div>
+                                    
+                                    </div>
+
+
+                    <div id="column_three_three">
+                        <button type="button" class="btn" onclick="show('column_three_three3')">
+                            <img src='https://laverdadnoticias.com/__export/1596472636798/sites/laverdad/img/2020/08/03/dynamite_sera_nueva_sorprendente_era_de_bts.jpg_1571642744.jpg'>
+                            <p><b id='name9'>Dynamite</b></p>
+                        </button>
+
+                    </div>
+
+                                    <div id="column_three_three3" style="display: none;background-color:#4dff4d;width:20%;text-align:center;padding:7px;">
+                                        <div style="background-color:#33cc33;width:50%;text-align:center;padding:2px;margin:50% auto ">
+                                            <button type="button" id="btn9" style="padding:10px;" onclick="document.getElementById('project9').innerHTML=getname8();button1('btn9'); document.getElementById('icon9').innerHTML='  X'; show1('nine9');show1('nine')">Add </button>
+                                            <br>
+                                            <a href="play.html"> <button type="button" class="btn" style="padding: 10px; ">Play</button></a>
+                                                
+                                        </div>
+                                
+                                    </div>
+
+                                    
+                </div>
+
+            </div>
+
+            <!--aside right -->
+            <div class="aside_right">
+                <h3 style="text-align: center;"> <b><i style="font-size: 22px;">Songs in playlist</i></b></h3>
+               
+                <!--table of songs displayed-->
+                <div class='table'>
+                    <div class='table1'>
+                        <div id='one' style="display: block;"><p id='project2' style="text-align: center;"></p> </div>
+                        <div id='two' style="display: block;"><p id='project1'style="text-align: center;"></p>  </div>
+                        <div id="three" style="display: block;"><p id='project' style="text-align: center;"></p>  </div>
+                        <div id="four" style="display: block;"><p id='project4' style="text-align: center;"></p>  </div>
+                        <div id="five" style="display: block;"><p id='project5' style="text-align: center;"></p>  </div>
+                        <div id="six" style="display: block;"><p id='project6' style="text-align: center;"></p>  </div>
+                        <div id="seven" style="display: block;"><p id='project7' style="text-align: center;"></p>  </div>
+                        <div id="eight" style="display: block;"><p id='project8' style="text-align: center;"></p>  </div>
+                        <div id="nine" style="display: block;"><p id='project9' style="text-align:center "></p>  </div>
+                    </div>
+                    <div class="table2"><div id='one1' style="display: none;"><button type="button"  onclick="show2('one'); show2('one1');enable1('btn1');"  style="text-decoration: none;height:35px;width:100%;" ><p id='icon2' style="text-align: center;"></p> </button></div>
+                        <div id='two2' style="display: none;"><button type="button"  onclick="show2('two'); show2('two2');enable1('btn2');"  style="text-decoration: none;height:35px;width:100%;"><p id='icon1' style="text-align: center;"> </p></button> </div>
+                        <div id="three3" style="display: none;"><button type="button" onclick="show2('three'); show2('three3');enable1('btn3');"  style="text-decoration: none;height:35px;width:100%;"><p id='icon' style="text-align: center;"></p></button>  </div>
+                        <div id='four4' style="display: none;"><button type="button"  onclick="show2('four'); show2('four1');enable1('btn4');"  style="text-decoration: none;height:35px;width:100%;" ><p id='icon4' style="text-align: center;"></p> </button></div>
+                        <div id='five5' style="display: none;"><button type="button"  onclick="show2('five'); show2('five5');enable1('btn5');"  style="text-decoration: none;height:35px;width:100%;"><p id='icon5' style="text-align: center;"> </p></button> </div>
+                        <div id="six6" style="display: none;"><button type="button" onclick="show2('six'); show2('six6');enable1('btn6');"  style="text-decoration: none;height:35px;width:100%;"><p id='icon6' style="text-align: center;"></p></button>  </div>
+                        <div id='seven7' style="display: none;"><button type="button"  onclick="show2('seven'); show2('seven7');enable1('btn7');"  style="text-decoration: none;height:35px;width:100%;" ><p id='icon7' style="text-align: center;"></p> </button></div>
+                        <div id='eight8' style="display: none;"><button type="button"  onclick="show2('eight'); show2('eight8');enable1('btn8');"  style="text-decoration: none;height:35px;width:100%;"><p id='icon8' style="text-align: center;"> </p></button> </div>
+                        <div id="nine9" style="display: none;"><button type="button" onclick="show2('nine'); show2('nine9');enable1('btn9');"  style="text-decoration: none;height:35px;width:100%;"><p id='icon9' style="text-align: center;"></p></button>  </div>
+                       
+                        
+                       
+                    </div>
+               </div>
+               
+            
+            </div>
+        </div>
+    </div>
+    <script src="fun.js"></script>
+</body>
+</html>

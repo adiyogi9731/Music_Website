@@ -1,0 +1,236 @@
+body{
+    /*border: 3px solid blue;*/
+    padding: 5px;
+    background: url('https://wallpapertag.com/wallpaper/full/6/e/e/139231-cool-powerpoint-backgrounds-1920x1200-for-android-50.jpg');
+   
+
+}
+b{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.heading{
+    width: 98%;
+    padding: 10px;
+    /*background-color: #aaa;*/
+    text-align: center;
+    color: blue;
+    margin-right: 20px;
+    background: url('http://www.newdesignfile.com/postpic/2013/07/cool-music-note-designs_183564.jpg') ;
+   
+   /* border: 2px solid green;*/
+}
+
+.title{
+    /*border: 1px solid red;*/
+    width:10%;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 5px;
+ 
+}
+
+.article{
+    /*border: 2px solid salmon;*/
+    
+    height: 500px;
+    margin-top: 5px;
+    margin-right: 2px;
+    display: flex;
+    padding: 5px;
+}
+.aside_left{
+    flex:3;
+    /*background-color: rgb(165, 170, 233);*/
+    margin-right: 5px;
+
+}
+.aside_right{
+    flex:1;
+    
+    height: 700px;
+   /* border: 2px solid red;*/
+}
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.table{
+    display: flex;
+    background: url('https://png.pngtree.com/png-clipart/20190117/ourlarge/pngtree-fresh-blue-sky-blue-white-clouds-png-image_421574.jpg');
+    height: 400px;
+   
+}
+.table1{
+    flex: 2;
+    margin:3px;
+   /* background-color: #aaa;*/
+   /* border: 2px solid red;*/
+}
+.table2{
+    flex: 1;
+    margin:3px;
+    /*background-color: #aaa;
+     border: 2px solid red;*/
+}
+.song_body{
+    display: flex;
+    height: 300px;
+
+}
+.song_body1{
+    display: flex;
+    height: 300px;
+    margin-top: 28px;
+
+}
+.song_body2{
+    display: flex;
+    height: 300px;
+    margin-top: 28px;
+
+}
+img,button{
+    width: 100%;
+    height: 100%;
+}
+#column1{
+    flex: 1;
+    margin:3px;
+    background-color: #aaa;
+   /* border: 2px solid red;*/
+    
+}
+#column11{
+    flex: 1;
+    margin:3px;
+    background-color: #aaa;
+    /*border: 2px solid red;*/
+    
+    
+}
+
+#column2{
+    flex: 1;
+    margin:3px;
+    background-color: #aaa;
+   /* border: 2px solid red;*/
+}
+#column22{
+    flex: 1;
+    margin:3px;
+    background-color: #aaa;
+   /* border: 2px solid red;*/
+    
+    
+}
+#column3{
+    flex: 1;
+    margin:3px;
+    background-color: #aaa;
+   /* border: 2px solid red;*/
+}
+#column33{
+    flex: 1;
+    margin:3px;
+    background-color: #aaa;
+   /* border: 2px solid red;*/
+    
+    
+}
+
+/*for block2 of songs*/
+
+#column_one{
+    flex: 1;
+    margin:3px;
+    background-color: #aaa;
+   /* border: 2px solid red;*/
+    
+}
+#column_one1{
+    flex: 1;
+    margin:3px;
+    background-color: #aaa;
+    /*border: 2px solid red;*/
+    
+    
+}
+
+#column_two{
+    flex: 1;
+    margin:3px;
+    background-color: #aaa;
+   /* border: 2px solid red;*/
+}
+#column_two2{
+    flex: 1;
+    margin:3px;
+    background-color: #aaa;
+   /* border: 2px solid red;*/
+    
+    
+}
+#column_three{
+    flex: 1;
+    margin:3px;
+    background-color: #aaa;
+   /* border: 2px solid red;*/
+}
+#column_three3{
+    flex: 1;
+    margin:3px;
+    background-color: #aaa;
+   /* border: 2px solid red;*/
+    
+    
+}
+
+/* for block3 of songs*/
+
+#column_one_one{
+    flex: 1;
+    margin:3px;
+    background-color: #aaa;
+   /* border: 2px solid red;*/
+    
+}
+#column_one_one1{
+    flex: 1;
+    margin:3px;
+    background-color: #aaa;
+    /*border: 2px solid red;*/
+    
+    
+}
+
+#column_two_two{
+    flex: 1;
+    margin:3px;
+    background-color: #aaa;
+   /* border: 2px solid red;*/
+}
+#column_two_two2{
+    flex: 1;
+    margin:3px;
+    background-color: #aaa;
+   /* border: 2px solid red;*/
+    
+    
+}
+#column_three_three{
+    flex: 1;
+    margin:3px;
+    background-color: #aaa;
+   /* border: 2px solid red;*/
+}
+#column_three_three3{
+    flex: 1;
+    margin:3px;
+    background-color: #aaa;
+   /* border: 2px solid red;*/
+    
+    
+}
